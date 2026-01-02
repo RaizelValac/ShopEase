@@ -3,7 +3,7 @@ package com.example.shopease.repo
 import android.util.Log
 import com.example.shopease.data.dto.toEntity
 import com.example.shopease.data.local.CartItem
-import com.example.shopease.data.local.ProductDao // Or ShopDao, check your naming!
+import com.example.shopease.data.local.ProductDao 
 import com.example.shopease.data.local.ProductEntity
 import com.example.shopease.data.remote.ShopApi
 import kotlinx.coroutines.flow.Flow
