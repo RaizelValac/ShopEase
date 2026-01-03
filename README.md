@@ -12,7 +12,6 @@ A modern, offline-first Android E-Commerce application built with the "Big 5" ar
 * **UI:** Jetpack Compose (Material3)
 
 ## 💡 Key Features
-* **Dual-Stream Data:** Merges Network data (Catalog) and Local data (Cart) into a single UI state using `combine`.
 * **Smart Cart Logic:** * Add/Remove items.
     * Adjust quantities.
     * **Auto-Calculation:** Uses custom SQL queries (`SUM(price * quantity)`) to calculate total price instantly in the Database.
